@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*,html.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+main{
+    overflow: auto;
+}
+header{
+    display: inline;
+}
+.banner{
+    color: white;
+    text-align: center;
+    padding: 50px;
+    background-color: darkslategray;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+.navigation{
+    display: flex;
+    justify-content:center;
+    background-color: black;
+    width: 100%;
+}
+.nav{
+    list-style-type: none;
+    margin: 20px;
+    margin-inline: 50px;
+}
+.navlink{
+    color: white;
+    text-decoration: none;
+}
+.navlink:hover{
+    font-weight: bold;
+}
+.konten{
+    padding: 20px;
+    float: left;
+    width: 75%;
+}
+.gambar{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.sejarah{
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    padding: 15px;
+    box-shadow: 5px 5px 10px 1px grey;
+    border-radius: 5px;
+}
+.geografis{
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    padding: 15px;
+    box-shadow: 5px 5px 10px 1px grey;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.wisata{
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    padding: 15px;
+    box-shadow: 5px 5px 10px 1px grey;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.informasi{
+    float: right;
+    width: 25%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    padding: 15px;
+    box-shadow: 5px 5px 10px 1px grey;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+.lambang{
+    width: 200px;
+}
+footer{
+    padding: 20px;
+    background-color:blueviolet;
+    color: aliceblue;
+} 
+@media screen and (max-width: 1000px) {
+    .konten,
+    .informasi {
+      width: 100%;
+      padding: 0;
+    }
+  } 
